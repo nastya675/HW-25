@@ -1,0 +1,33 @@
+body{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.group{
+    margin-right: 100px;
+    margin-top: 100px;
+}
+.square{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+}
+
+.square:nth-child(1){
+    background: pink;
+    margin-left: -100px;
+}
+
+.square:nth-child(2){
+    background: blue;
+    z-index: 1;
+    margin-top: 120px;
+}
+
+.square:nth-child(3){
+    background: green;
+    margin-left: 100px;
+    margin-top: 250px;
+}
